@@ -2,4 +2,4 @@
 
 ## Wordpress project voor mediacollege Amsterdam
 
-### Thies van der Zon - SD2B
+### Thies van der Zon en Pawel Kellner - SD2B
