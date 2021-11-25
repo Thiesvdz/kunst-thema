@@ -5,9 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
+    <link rel="stylesheet" href="<?php echo site_url( 'style.css' ) ?>">
+    <title>Index</title>
 </head>
 <body>
-<h1>Welkom op de homepage</h1>
+    <h1 class="titel">Welkom op de index page</h1>
+    <div>hallo</div>
 </body>
 </html>
