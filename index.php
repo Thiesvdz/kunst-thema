@@ -1,10 +1,8 @@
 <?php
-    get_header();
-?>
+        wp_nav_menu( array( 'theme_location' => 'header-menu','container_class' => 'navigation-menu' ) );
+        get_header();
 
-<html>
-    <body>
-        <?php
+
         if ( have_posts() ) :
             while ( have_posts() ) : the_post(); ?>
 
@@ -20,6 +18,8 @@
 
         get_footer();
 
+
         ?>
-    </body>
-</html>
+
+
+

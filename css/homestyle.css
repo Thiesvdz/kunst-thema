@@ -1,3 +1,41 @@
 body {
     background-color: white;
 }
+
+/* Nav Menu */
+.navigation-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu ul:before, .navigation-menu ul:after {
+    content: "";
+    display: table;
+}
+
+.navigation-menu ul:after {
+    clear: both;
+}
+
+.navigation-menu ul {
+    *zoom: 1
+}
+
+.navigation-menu ul li {
+    list-style: none;
+    float: left;
+    margin-right: 3px;
+}
+
+.navigation-menu ul li a:link,
+.navigation-menu ul li a:visited {
+    display: block;
+    padding: 12px 17px;
+    border: 2px solid #ecf0f1;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.current-menu-item{
+    border-bottom: solid 5px #0d66c2;
+}
