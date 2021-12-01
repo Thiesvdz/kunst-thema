@@ -1,15 +1,25 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Index</title>
-    <?php wp_head(); ?>
-</head>
-<body>
-    <h1 class="titel">Welkom op de index page</h1>
-    <div>hallo</div>
-</body>
+<?php
+    get_header();
+?>
+
+<html>
+    <body>
+        <?php
+        if ( have_posts() ) :
+            while ( have_posts() ) : the_post(); ?>
+
+                <h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
+                <?php the_content() ?>
+
+            <?php endwhile;
+
+        else :
+            echo '<p>There are no posts!</p>';
+
+        endif;
+
+        get_footer();
+
+        ?>
+    </body>
 </html>
