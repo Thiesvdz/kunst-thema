@@ -1,2 +1,2 @@
 <?php wp_footer()?>
-<div>FOOTER</div>
+<div id="footer">FOOTER</div>
