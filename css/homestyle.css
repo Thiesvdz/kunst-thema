@@ -5,15 +5,30 @@ body {
 
 .content{
     text-align: center;
-    background-color: gray;
+    background-color: #E24426;
     padding: 12px;
+
 }
-#header{
-    position: absolute;
-    left: 43%;
-    top: 20%;
-    font-size: xx-large;
- }
+
+.logoWebsite {
+    float: left;
+}
+
+.knoppen {
+
+}
+
+.navigation-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 60%;
+}
+.navigation-menu li{
+    list-style: none;
+}
+.navbar{
+}
 
 #footer{
       position: absolute;
@@ -25,7 +40,6 @@ body {
 #header-img{
     width: 90px;
     height: 90px;
-    position: absolute;
 }
 
 /* Nav Menu */
@@ -41,20 +55,20 @@ a:hover{
     color: #0d66c2;
 }
 
-.navigation-menu{
-    text-decoration: none;
-    text-align: center;
+/*.navigation-menu{*/
+/*    text-decoration: none;*/
+/*    text-align: center;*/
 
-}
+/*}*/
 
-.navigation-menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-evenly;
-}
+/*.navigation-menu ul {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    list-style: none;*/
+/*    text-decoration: none;*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*}*/
 
 
 .current-menu-item{
