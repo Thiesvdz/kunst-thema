@@ -7,5 +7,5 @@
 </head>
 
 <body <?php body_class(); ?>>
-<img src="http://eye-artshop.local/wp-content/uploads/2021/12/screenshot2.png" alt="navbar-logo" id="headerimg">
+<img src="http://eye-artshop.local/wp-content/uploads/2021/12/screenshot2.png" alt="navbar-logo" id="header-img">
 <div id="header">HEADER</div>
