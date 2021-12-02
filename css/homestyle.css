@@ -3,6 +3,11 @@ body {
     font-family: Arial;
 }
 
+.content{
+    text-align: center;
+    background-color: gray;
+    padding: 12px;
+}
 #header{
     position: absolute;
     left: 43%;
@@ -12,12 +17,12 @@ body {
 
 #footer{
       position: absolute;
-      text-align: center;
-      bottom: 0;
+      bottom: 15%;
+      left: 43%;
       font-size: xx-large;
 }
 
-#headerimg{
+#header-img{
     width: 90px;
     height: 90px;
     position: absolute;
