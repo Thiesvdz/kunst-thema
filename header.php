@@ -13,7 +13,7 @@
         <img src="http://eye-artshop.local/wp-content/uploads/2021/12/screenshot2-1-e1638453495529.png" alt="navbar-logo" id="header-img">
     </div>
     <div class="knoppen">
-        <?php  wp_nav_menu( array( 'theme_location' => 'header-menu','container_class' => 'navigation-menu' ) );?>
+        <?php  wp_nav_menu( array( 'theme_location' => 'Hoofdmenu') );?>
     </div>
 
 </div>

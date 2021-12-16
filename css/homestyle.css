@@ -1,86 +1,99 @@
 body {
-    background-color: #00a0d2;
-    font-family: Arial;
-    padding: 0;
-    margin: 0;
-    background-image: url("http://eye-artshop.local/wp-content/uploads/2021/12/Movie-background.jpg");
-    background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+  background-image: url("http://eye-artshop.local/wp-content/uploads/2021/12/Movie-background.jpg");
+  background-repeat: no-repeat;
 }
 
-.content{
-    text-align: center;
-    background-color: #E24426;
-    padding: 12px;
+.content {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 12px;
+}
 
+.title {
+  font-size: xx-large;
+}
+
+.desc {
+  font-size: large;
 }
 
 .logoWebsite {
-    float: left;
+  float: left;
 }
 
-.knoppen {
-
+.navbar {
+  height: 70px;
+  padding: 10px;
 }
 
-.navigation-menu ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    width: 60%;
-    margin: 0;
-    padding: 7px;
-
-}
-.navigation-menu li{
-    list-style: none;
-}
-.navbar{
-    height: 70px;
-    padding: 10px;
-}
-
-#footer{
-      position: absolute;
-      bottom: 15%;
-      left: 43%;
-      font-size: xx-large;
-}
-
-#header-img{
-    /*width: 90px;*/
-    /*height: 90px;*/
+#footer {
+  position: absolute;
+  bottom: 15%;
+  left: 43%;
+  font-size: xx-large;
 }
 
 /* Nav Menu */
-a{
-    text-decoration: none;
-    color: white;
-    font-size: x-large;
-    font-weight: bold;
+.current_page_item {
+  text-decoration-color: #E24426;
+  border-bottom: solid 4px #E24426;
 }
 
-a:hover{
-    text-decoration: underline;
-    color: #0d66c2;
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 60%;
+  margin: 0;
+  padding: 7px;
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: x-large;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.menu li a:hover {
+  text-decoration: none;
+  color: #83ECFE;
 }
 
-/*.navigation-menu{*/
-/*    text-decoration: none;*/
-/*    text-align: center;*/
-
-/*}*/
-
-/*.navigation-menu ul {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    list-style: none;*/
-/*    text-decoration: none;*/
-/*    display: flex;*/
-/*    justify-content: space-evenly;*/
-/*}*/
-
-
-.current-menu-item{
-    border-bottom: solid 4px white;
-
+.content-index {
+  text-align: left;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 12px;
 }
+.content-index a {
+  text-decoration: none;
+  font-size: small;
+  background-color: #1B06EA;
+  color: white;
+  border: 2px solid #1B06EA;
+  transition: 0.3s;
+  padding: 10px;
+  font-weight: bold;
+}
+.content-index a:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.title-index {
+  font-size: xx-large;
+}
+
+.desc-index {
+  font-size: medium;
+}
+
+/*# sourceMappingURL=homestyle.css.map */

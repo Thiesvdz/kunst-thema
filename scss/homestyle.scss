@@ -1,0 +1,110 @@
+@import "mixins";
+@import "variables";
+
+body {
+  background-color: $menu-item-bg;
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+  background-image: url("http://eye-artshop.local/wp-content/uploads/2021/12/Movie-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 12px;
+
+}
+
+.title{
+  font-size: $font-title;
+}
+
+.desc{
+  font-size: $font-desc;
+}
+
+.logoWebsite {
+  float: left;
+}
+
+
+
+.navbar {
+  height: 70px;
+  padding: 10px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 15%;
+  left: 43%;
+  font-size: xx-large;
+}
+
+/* Nav Menu */
+.current_page_item {
+  text-decoration-color: $active-menu-item;
+  border-bottom: solid 4px #E24426;
+}
+.menu {
+  ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 60%;
+    margin: 0;
+    padding: 7px;
+  }
+  li{
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: $menu-item-bg;
+      font-size: x-large;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    a:hover{
+      text-decoration: none;
+      color: #83ECFE;
+    }
+  }
+}
+
+// News page
+.content-index{
+  text-align: left;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 12px;
+
+    a{
+      text-decoration: none;
+      font-size: small;
+      background-color: $donkerblauw;
+      color: white;
+      border: 2px solid $donkerblauw;
+      transition: 0.3s;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    a:hover{
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+    }
+}
+
+.title-index{
+  font-size: $font-title;
+}
+
+.desc-index{
+  font-size: medium;
+}
+
+

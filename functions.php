@@ -7,12 +7,6 @@ function kunst_adding_scripts() {
 add_action('wp_enqueue_scripts','kunst_adding_scripts');
 
 function kunst_init_thema() {
-    register_nav_menus(
-        array(
-            'main-menu' => __( 'Hoofdmenu' ),
-            'theme_location' => 'extra-menu',
-
-        )
-    );
+    register_nav_menu('main-menu', __( 'Hoofdmenu' ));
 }
 add_action( 'init', 'kunst_init_thema' );
