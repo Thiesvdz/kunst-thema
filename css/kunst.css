@@ -1,0 +1,85 @@
+body {
+  background-color: #00a0d2;
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+  background-image: url("http://eye-artshop.local/wp-content/uploads/2021/12/Movie-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.content {
+  text-align: center;
+  background-color: #E24426;
+  padding: 12px;
+}
+
+.logoWebsite {
+  float: left;
+}
+
+.navigation-menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 60%;
+  margin: 0;
+  padding: 7px;
+}
+
+.navigation-menu li {
+  list-style: none;
+}
+
+.navbar {
+  height: 70px;
+  padding: 10px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 15%;
+  left: 43%;
+  font-size: xx-large;
+}
+
+#header-img {
+  /*width: 90px;*/
+  /*height: 90px;*/
+}
+
+/* Nav Menu */
+a {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0d66c2;
+}
+
+h {
+  color: white;
+}
+
+/*.navigation-menu{*/
+/*    text-decoration: none;*/
+/*    text-align: center;*/
+/*}*/
+/*.navigation-menu ul {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    list-style: none;*/
+/*    text-decoration: none;*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+.current-menu-item {
+  border-bottom: solid 4px white;
+}
+
+/*# sourceMappingURL=kunst.scss.map */
+
+/*# sourceMappingURL=kunst.css.map */
