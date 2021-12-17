@@ -5,6 +5,13 @@ body {
   margin: 0;
   background-image: url("http://eye-artshop.local/wp-content/uploads/2021/12/Movie-background.jpg");
   background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  font-size: xx-large;
 }
 
 .content {
@@ -29,13 +36,6 @@ body {
 .navbar {
   height: 70px;
   padding: 10px;
-}
-
-#footer {
-  position: absolute;
-  bottom: 15%;
-  left: 43%;
-  font-size: xx-large;
 }
 
 /* Nav Menu */
@@ -67,8 +67,46 @@ body {
   color: #83ECFE;
 }
 
-.content-index {
+.content-home {
   text-align: left;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 12px;
+}
+.content-home a {
+  text-decoration: none;
+  font-size: small;
+  background-color: #1B06EA;
+  color: white;
+  border: 2px solid #1B06EA;
+  transition: 0.3s;
+  padding: 10px;
+  font-weight: bold;
+}
+.content-home a:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 13px;
+}
+
+.title-home {
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.desc-home {
+  font-size: medium;
+}
+
+hr {
+  margin-top: 20px;
+  width: 400px;
+  margin-left: 0;
+  border-top: 2px solid #E24426;
+}
+
+.content-index {
+  text-align: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 12px;
@@ -90,6 +128,7 @@ body {
 
 .title-index {
   font-size: xx-large;
+  margin-bottom: 20px;
 }
 
 .desc-index {

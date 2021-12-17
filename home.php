@@ -1,4 +1,5 @@
-<!--Post items pagina-->
+<!--Eye news pagina-->
+
 <?php
 
 
@@ -8,10 +9,12 @@
         if ( have_posts() ) :
             while ( have_posts() ) : the_post(); ?>
 
-            <div class="content-index">
-                <div class="title-index"><?php the_title() ?></div>
-                <div class="desc-index"><?php the_content() ?></div>
-<!--                <a href="--><?php //the_permalink() ?><!--">Read more</a>-->
+            <div class="content-home">
+
+                <div class="title-home"><?php the_title() ?></div>
+                <em><?php echo the_date()?></em><br><br>
+                <a href="<?php the_permalink() ?>" >Read more</a><br>
+                <hr>
             </div>
             <?php endwhile;
 

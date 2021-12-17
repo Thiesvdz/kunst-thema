@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "dependencies": {
     "sass-convert": "^0.5.2"
   },
@@ -16,24 +15,4 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
-=======
-  "name": "kunst-thema",
-  "version": "1.0.0",
-  "description": "## Wordpress project voor mediacollege Amsterdam",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Thiesvdz/kunst-thema.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Thiesvdz/kunst-thema/issues"
-  },
-  "homepage": "https://github.com/Thiesvdz/kunst-thema#readme"
->>>>>>> 316bcc06f1bcde4f11c882adac109e9f7e83c07c
 }
