@@ -9,11 +9,13 @@
 <body <?php body_class(); ?>>
 
 <div class="navbar">
-    <div class="logoWebsite">
-        <img src="http://eye-artshop.local/wp-content/uploads/2021/12/screenshot2-1-e1638453495529.png" alt="navbar-logo" id="header-img">
-    </div>
+
     <div class="knoppen">
+        <img src="<?php echo get_template_directory_uri()?>/pictures/screenshot2.png" alt="navbar-logo" id="header-img">
         <?php  wp_nav_menu( array( 'theme_location' => 'Hoofdmenu') );?>
+
     </div>
+
+
 
 </div>

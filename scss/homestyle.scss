@@ -12,17 +12,19 @@ body {
   display: flex;
   flex-direction: column;
 }
+#header-img{
+  width: 125px;
 
+}
 #footer {
-
   font-size: xx-large;
 }
+
 .content {
   text-align: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 12px;
-
 }
 
 .title{
@@ -36,8 +38,6 @@ body {
 .logoWebsite {
   float: left;
 }
-
-
 
 .navbar {
   height: 70px;
