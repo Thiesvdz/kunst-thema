@@ -9,13 +9,20 @@
         if ( have_posts() ) :
             while ( have_posts() ) : the_post(); ?>
 
-            <div class="content-home">
+            <article>
 
-                <div class="title-home"><?php the_title() ?></div>
-                <em><?php echo the_date()?></em><br><br>
-                <a href="<?php the_permalink() ?>" >Read more</a><br>
-                <hr>
-            </div>
+                <?php if (has_post_thumbnail()):?>
+                    <?php the_post_thumbnail('post-thumbnail');?>
+                <?php endif ?>
+
+                <div class="news-text">
+                    <div class="title-home"><?php the_title() ?></div>
+                        <em><?php echo the_date()?></em><br><br>
+                    <a href="<?php the_permalink() ?>" >Read more</a><br>
+                </div>
+
+            </article>
+
             <?php endwhile;
 
         else :

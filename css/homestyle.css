@@ -71,13 +71,16 @@ body {
   color: #83ECFE;
 }
 
-.content-home {
-  text-align: left;
+article {
+  display: flex;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 12px;
 }
-.content-home a {
+article .news-text {
+  margin-left: 20px;
+}
+article a {
   text-decoration: none;
   font-size: small;
   background-color: #1B06EA;
@@ -87,7 +90,7 @@ body {
   padding: 10px;
   font-weight: bold;
 }
-.content-home a:hover {
+article a:hover {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   padding: 13px;

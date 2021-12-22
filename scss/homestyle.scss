@@ -78,12 +78,16 @@ body {
 }
 
 // News page
-.content-home{
-  text-align: left;
+article{
+  display: flex;
+  //text-align: left;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 12px;
 
+    .news-text {
+      margin-left: 20px;
+    }
     a{
       text-decoration: none;
       font-size: small;
@@ -117,6 +121,9 @@ hr{
   margin-left: 0;
   border-top: 2px solid $warmrood;
 }
+
+
+
 
 // News post style
 
