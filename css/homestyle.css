@@ -3,19 +3,37 @@ body {
   font-family: Arial;
   padding: 0;
   margin: 0;
-  background-image: url("http://eye-artshop.local/wp-content/uploads/2021/12/Movie-background.jpg");
   background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+.bg {
+  /* The image used */
+  background-image: url("../Bg-images/Movie-background.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #header-img {
   width: 125px;
+  float: left;
 }
 
 #footer {
   font-size: xx-large;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #83ECFE;
+  padding: 20px;
 }
 
 .content {
@@ -31,10 +49,6 @@ body {
 
 .desc {
   font-size: large;
-}
-
-.logoWebsite {
-  float: left;
 }
 
 .navbar {

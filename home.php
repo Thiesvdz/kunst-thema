@@ -1,7 +1,8 @@
 <!--Eye news pagina-->
 
-<?php
+<div class="bg">
 
+<?php
 
         get_header();
 
@@ -35,5 +36,5 @@
 
         ?>
 
-
+</div>
 

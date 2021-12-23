@@ -1,36 +1,36 @@
-<?php
 
+<div class="bg">
+    <?php
 
-get_header();
+    if ( have_posts() ) :
+        while ( have_posts() ) : the_post(); ?>
 
-
-if ( have_posts() ) :
-    while ( have_posts() ) : the_post(); ?>
-
-
-
-        <div class="content">
-            <div class="title"><?php the_title() ?></div>
+        <?php
+            get_header();
+        ?>
             <br>
+            <div class="content">
+                <div class="title"><?php the_title() ?></div>
+                <br>
 
-            <?php if (has_post_thumbnail()):?>
-                <?php the_post_thumbnail('medium');?>
-            <?php endif ?>
+                <?php if (has_post_thumbnail()):?>
+                    <?php the_post_thumbnail('medium');?>
+                <?php endif ?>
 
-            <div class="desc"><?php the_content() ?></div>
-<!--            <a href="--><?php //the_permalink() ?><!--"class="btn btn-green">Meer lezen</a>-->
-        </div>
-    <?php endwhile;
+                <div class="desc"><?php the_content() ?></div>
+    <!--            <a href="--><?php //the_permalink() ?><!--"class="btn btn-green">Meer lezen</a>-->
+            </div>
 
-else :
-    echo '<p style=" position: absolute; left: 43%; top: 30%; ">There are no posts!</p>';
+        <?php endwhile;
 
-endif;
+    else :
+        echo '<p style=" position: absolute; left: 43%; top: 30%; ">There are no posts!</p>';
 
-get_footer();
+    endif;
 
-
-?>
+    get_footer();
 
 
+    ?>
+</div>
 
