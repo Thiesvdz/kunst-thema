@@ -1,0 +1,9 @@
+$text-color: blue;
+$bg-color: white;
+$text-size: 20px;
+
+body{
+  color: $text-color;
+  background-color: $bg-color;
+  font-size: $text-size;
+}
