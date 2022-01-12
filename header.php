@@ -12,7 +12,7 @@
 
     <div class="knoppen">
         <img src="<?php echo get_template_directory_uri()?>/pictures/screenshot2.png" alt="navbar-logo" id="header-img">
-        <?php  wp_nav_menu( array( 'theme_location' => 'Hoofdmenu') );?>
+        <?php  wp_nav_menu( array( 'theme_location' => 'main-menu' , 'container_class' => 'menu') );?>
 
     </div>
 
