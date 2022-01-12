@@ -1,0 +1,21 @@
+footer{
+  padding: 20px;
+  background-color: $wit;
+  border: solid 4px $zwart;
+  height: 150px;
+  top: 10%;
+}
+
+h2 {
+  color: $warmrood;
+}
+
+#sidebar-footer{
+  //background-color: red;
+  display: flex;
+  justify-content: space-around;
+
+  .widget{
+    margin-right: 30px;
+  }
+}

@@ -1,3 +1,23 @@
+footer {
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: solid 4px #000000;
+  height: 150px;
+  top: 10%;
+}
+
+h2 {
+  color: #E24426;
+}
+
+#sidebar-footer {
+  display: flex;
+  justify-content: space-around;
+}
+#sidebar-footer .widget {
+  margin-right: 30px;
+}
+
 body {
   background-color: #FFFFFF;
   font-family: Arial;
