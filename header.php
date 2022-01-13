@@ -21,3 +21,6 @@
     </div>
 
 </header>
+<div class="main-content">
+    <h1><?php the_title()?><h1>
+</div>
