@@ -22,7 +22,7 @@ body {
   float: left;
 }
 
-.content {
+.main-content {
   text-align: center;
   font-weight: bold;
   color: white;
@@ -40,12 +40,12 @@ body {
   font-size: $font-desc;
 }
 
-.main-content{
+.content{
+  text-align: center;
   background-color: $wit;
   border: solid 3px $zwart;
   min-width: 97.3%;
   min-height: 80%;
-  text-align: center;
   padding: 20px;
   //margin-top: 20px;
 }

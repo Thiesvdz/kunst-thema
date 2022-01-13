@@ -9,6 +9,10 @@
             get_header();
         ?>
 
+            <div class="main-content">
+                <h1>Home</h1>
+            </div>
+
             <div class="content">
                 <div class="title"><?php the_title() ?></div>
 
@@ -21,9 +25,7 @@
     <!--            <a href="--><?php //the_permalink() ?><!--"class="btn btn-green">Meer lezen</a>-->
             </div>
 
-            <div class="main-content">
-                <h1>Hier komt de main content</h1>
-            </div>
+
         <?php endwhile;
 
     else :
