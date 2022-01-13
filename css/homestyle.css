@@ -1,43 +1,46 @@
 footer {
   padding: 20px;
   background-color: #FFFFFF;
-  border: solid 4px #000000;
+  border-bottom: solid 3px #000000;
+  border-right: solid 3px #000000;
+  border-left: solid 3px #000000;
   height: 150px;
-  top: 10%;
+  position: inherit;
+  bottom: 0;
+  width: 97.7%;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
   color: #E24426;
 }
 
-#sidebar-footer {
-  display: flex;
-  justify-content: space-around;
-}
 #sidebar-footer .widget {
   margin-right: 30px;
+}
+
+header {
+  background-image: url("http://eye-artshop.local/wp-content/uploads/2021/12/Movie-background.jpg");
+  background-repeat: no-repeat;
+  min-height: 600px;
+  padding: 20px;
+  background-color: #83ECFE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
 
 body {
   background-color: #FFFFFF;
   font-family: Arial;
   padding: 0;
-  margin: 0;
-  background-repeat: no-repeat;
+  margin-left: 40px;
+  margin-right: 40px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("../Bg-images/Movie-background.jpg");
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #header-img {
@@ -47,22 +50,29 @@ body {
 
 .content {
   text-align: center;
+  font-weight: bold;
   color: white;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #e24426;
   padding: 12px;
+  margin-bottom: 40px;
 }
 
 .title {
   font-size: xx-large;
+  padding-top: 15px;
 }
 
 .desc {
   font-size: large;
 }
 
-.navbar {
-  height: 70px;
-  padding: 10px;
+.main-content {
+  background-color: #FFFFFF;
+  border: solid 3px #000000;
+  min-width: 97.3%;
+  min-height: 80%;
+  text-align: center;
+  padding: 20px;
 }
 
 /* Nav Menu */
@@ -75,7 +85,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  width: 60%;
   margin: 0;
   padding: 7px;
 }
@@ -84,7 +93,7 @@ body {
 }
 .menu li a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #000000;
   font-size: x-large;
   font-weight: bold;
   transition: 0.3s;
