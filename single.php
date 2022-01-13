@@ -8,10 +8,10 @@
         <?php
             get_header();
         ?>
-            <br>
+
             <div class="content">
                 <div class="title"><?php the_title() ?></div>
-                <br>
+
 
                 <?php if (has_post_thumbnail()):?>
                     <?php the_post_thumbnail('medium');?>
@@ -21,6 +21,9 @@
     <!--            <a href="--><?php //the_permalink() ?><!--"class="btn btn-green">Meer lezen</a>-->
             </div>
 
+            <div class="main-content">
+                <h1>Hier komt de main content</h1>
+            </div>
         <?php endwhile;
 
     else :
