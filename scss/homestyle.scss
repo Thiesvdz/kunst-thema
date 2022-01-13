@@ -33,7 +33,7 @@ body {
 
 .title{
   font-size: $font-title;
-  padding-top: 15px;
+  //padding-top: 15px;
 }
 
 .desc{
@@ -72,7 +72,7 @@ body {
 
     a {
       text-decoration: none;
-      color: $zwart;
+      color: $wit;
       font-size: x-large;
       font-weight: bold;
       transition: 0.3s;
@@ -91,6 +91,8 @@ article{
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 12px;
+  margin-top: 40px;
+  padding: 30px;
 
     .news-text {
       margin-left: 20px;

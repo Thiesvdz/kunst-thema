@@ -11,7 +11,7 @@
 
             <div class="content">
                 <div class="title"><?php the_title() ?></div>
-                <br>
+
 
                 <?php if (has_post_thumbnail()):?>
                     <?php the_post_thumbnail('medium');?>
