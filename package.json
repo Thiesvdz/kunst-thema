@@ -2,7 +2,7 @@
   "dependencies": {
     "sass-convert": "^0.5.2"
   },
-  "name": "kunst-thema-thies",
+  "name": "kunst-thema",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
@@ -10,6 +10,10 @@
   "scripts": {
     "dev": "sass --style expanded scss/homestyle.scss css/homestyle.css",
     "watch": "sass --watch scss/homestyle.scss css/homestyle.css",
+    "watchHome": "sass --watch scss/home/home.scss css/home.css",
+    "watchEvents": "sass --watch scss/events/events.scss css/events.css",
+    "watchAboutUs": "sass --watch scss/about-us/about-us.scss css/about-us.css",
+    "watchMovies": "sass --watch scss/movies/movies.scss css/movies.css",
     "prod": "sass --style compressed --sourcemap=none scss/homestyle.scss css/homestyle.css"
   },
   "keywords": [],
