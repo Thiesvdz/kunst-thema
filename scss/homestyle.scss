@@ -166,3 +166,9 @@ hr{
 .desc-index{
   font-size: medium;
 }
+
+@media only screen and (max-width: 1550px){
+  .main-content{
+    padding: 6px;
+  }
+}

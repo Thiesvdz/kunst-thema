@@ -2,10 +2,28 @@ header{
   background-image: url("http://eye-artshop.local/wp-content/uploads/2021/12/Movie-background.jpg");
   background-repeat: no-repeat;
   min-height: 600px;
-
   padding: 20px;
   background-color: $ijsblauw;
   margin-top: 40px;
+}
+
+// 27 inch monitor
+@media only screen and (min-width: 1950px){
+  header{
+    background-color: red;
+    min-height: 750px;
+  }
+}
+
+// laptop scherm
+@media only screen and (max-width: 1550px){
+  header{
+    min-height: 470px;
+  }
 
 }
 
+// Telefoon scherm
+@media only screen and (max-width: 375px){
+
+}

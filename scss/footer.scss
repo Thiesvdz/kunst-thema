@@ -1,14 +1,12 @@
 footer{
   padding: 20px;
   background-color: $wit;
-  border-bottom: solid 3px $zwart;
-  border-right: solid 3px $zwart;
-  border-left: solid 3px $zwart;
+  border: solid 3px $zwart;
   height: 150px;
   //margin-top: 20px;
   position: inherit;
   bottom: 0;
-  width: 97.7%;
+  width: 97.3%;
   display: flex;
   justify-content: center;
 }

@@ -1,13 +1,11 @@
 footer {
   padding: 20px;
   background-color: #FFFFFF;
-  border-bottom: solid 3px #000000;
-  border-right: solid 3px #000000;
-  border-left: solid 3px #000000;
+  border: solid 3px #000000;
   height: 150px;
   position: inherit;
   bottom: 0;
-  width: 97.7%;
+  width: 97.3%;
   display: flex;
   justify-content: center;
 }
@@ -29,6 +27,17 @@ header {
   margin-top: 40px;
 }
 
+@media only screen and (min-width: 1950px) {
+  header {
+    background-color: red;
+    min-height: 750px;
+  }
+}
+@media only screen and (max-width: 1550px) {
+  header {
+    min-height: 470px;
+  }
+}
 body {
   background-color: #FFFFFF;
   font-family: Arial;
@@ -170,6 +179,12 @@ hr {
 
 .desc-index {
   font-size: medium;
+}
+
+@media only screen and (max-width: 1550px) {
+  .main-content {
+    padding: 6px;
+  }
 }
 
 /*# sourceMappingURL=homestyle.css.map */

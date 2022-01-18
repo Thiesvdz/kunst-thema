@@ -19,7 +19,6 @@
             <?php  wp_nav_menu( array( 'theme_location' => 'main-menu' , 'container_class' => 'menu') );?>
         </div>
     </div>
-
 </header>
 <div class="main-content">
     <h1><?php the_title()?><h1>
