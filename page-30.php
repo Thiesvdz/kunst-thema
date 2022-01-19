@@ -4,8 +4,8 @@
 get_header();
 ?>
 
-<div class="content">
-    <p>HALLLO EEN TEST</p>
+<div class="event-content">
+    <div class="desc"><?php the_content() ?></div>
 </div>
 
 <?php
