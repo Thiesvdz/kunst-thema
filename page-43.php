@@ -4,8 +4,9 @@
 get_header();
 ?>
 
-<div class="content">
-    <p>OMG</p>
+
+<div class="movie-content">
+    <div class="desc"><?php the_content() ?></div>
 </div>
 
 <?php
