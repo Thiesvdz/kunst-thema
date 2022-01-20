@@ -20,6 +20,7 @@ function kunst_setup_thema(){
     set_post_thumbnail_size( 100, 100 );
 }
 
+
 add_action('after_setup_theme','kunst_setup_thema');
 
 

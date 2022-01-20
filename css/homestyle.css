@@ -14,28 +14,51 @@ h2 {
   color: #E24426;
 }
 
+Footerlogos {
+  width: 50px;
+  height: 50px;
+}
+
 #sidebar-footer .widget {
   margin-right: 30px;
 }
 
+@media only screen and (min-width: 1950px) {
+  footer {
+    width: 97.8%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+}
 header {
-  background-image: url("http://eye-artshop.local/wp-content/uploads/2021/12/Movie-background.jpg");
+  background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-normaal-2.jpg");
   background-repeat: no-repeat;
   min-height: 600px;
-  padding: 20px;
-  background-color: #83ECFE;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: black;
   margin-top: 40px;
 }
 
 @media only screen and (min-width: 1950px) {
   header {
-    background-color: red;
+    background-color: black;
     min-height: 750px;
+    background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-groot-1.jpg");
   }
 }
 @media only screen and (max-width: 1550px) {
   header {
     min-height: 470px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  header {
+    background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-kleiner-1.jpg");
   }
 }
 body {

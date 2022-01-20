@@ -9,16 +9,14 @@
             get_header();
         ?>
 
-            <div class="main-content">
-                <h1>Home</h1>
-            </div>
+
 
             <div class="content">
                 <div class="title"><?php the_title() ?></div>
 
 
                 <?php if (has_post_thumbnail()):?>
-                    <?php the_post_thumbnail('medium');?>
+                    <?php the_post_thumbnail('post-thumbnail');?>
                 <?php endif ?>
 
                 <div class="desc"><?php the_content() ?></div>

@@ -6,6 +6,9 @@
 
 .scav-hunt{
   color: #1B06EA;
+  //font-weight: bolder;
+}
+.has-text-align-center{
   font-weight: bolder;
 }
 
@@ -13,3 +16,10 @@
   margin-top: 20px;
   width: 100%;
 }
+
+.scroll{
+  width: 500px;
+  height: 250px;
+  overflow: auto;
+}
+

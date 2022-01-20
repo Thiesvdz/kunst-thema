@@ -4,12 +4,21 @@
 
 .scav-hunt {
   color: #1B06EA;
+}
+
+.has-text-align-center {
   font-weight: bolder;
 }
 
 .poster {
   margin-top: 20px;
   width: 100%;
+}
+
+.scroll {
+  width: 500px;
+  height: 250px;
+  overflow: auto;
 }
 
 /*# sourceMappingURL=home.css.map */
