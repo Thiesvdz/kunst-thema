@@ -6,21 +6,43 @@ footer {
   position: inherit;
   bottom: 0;
   width: 97.3%;
-  display: flex;
-  justify-content: center;
 }
 
 h2 {
   color: #E24426;
 }
 
-Footerlogos {
-  width: 50px;
-  height: 50px;
+li {
+  list-style: none;
 }
 
-#sidebar-footer .widget {
-  margin-right: 30px;
+.tekst {
+  color: #1B06EA;
+  text-decoration: none;
+  text-align: center;
+}
+
+.tekst:hover {
+  color: #83ECFE;
+}
+
+.logos {
+  width: 50px;
+  display: block;
+}
+
+.Location-tekst {
+  text-align: center;
+}
+
+.footer-heel {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Socials {
+  text-decoration: none;
+  color: #83ECFE;
 }
 
 @media only screen and (min-width: 1950px) {
@@ -190,6 +212,7 @@ body {
 .wp-image-443, .wp-image-436, .wp-image-437 {
   padding: 3px;
   border: solid 5px #E24426;
+  width: 150px;
 }
 
 .Scavenger-text {

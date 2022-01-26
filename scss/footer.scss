@@ -7,28 +7,50 @@ footer{
   position: inherit;
   bottom: 0;
   width: 97.3%;
-  display: flex;
-  justify-content: center;
+
 }
 
 h2 {
   color: $warmrood;
 }
 
-Footerlogos{
+li{
+  list-style: none;
+}
+.tekst{
+  color: $donkerblauw;
+  text-decoration: none;
+  text-align: center;
+}
+
+.tekst:hover{
+  color: $ijsblauw;
+
+}
+
+.logos{
   width: 50px;
-  height: 50px;
+  display: block;
 }
 
-#sidebar-footer{
-  //background-color: red;
-  //display: flex;
-  //justify-content: space-around;
-
-  .widget{
-    margin-right: 30px;
-  }
+.Location-tekst{
+  text-align: center;
 }
+.footer-heel{
+  display: flex;
+  justify-content: space-around;
+}
+.Socials{
+  text-decoration: none;
+  color: $ijsblauw;
+
+}
+
+.Socials:hover{
+
+}
+
+
 
 @media only screen and (min-width: 1950px){
   footer{
