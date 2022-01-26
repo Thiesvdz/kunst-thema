@@ -35,30 +35,20 @@ Footerlogos {
   }
 }
 header {
-  background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-normaal-2.jpg");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  min-height: 600px;
+  min-height: 500px;
   padding-top: 20px;
   padding-left: 20px;
-  background-color: black;
+  background-color: red;
   margin-top: 40px;
 }
 
 @media only screen and (min-width: 1950px) {
   header {
-    background-color: black;
+    background-color: red;
     min-height: 750px;
-    background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-groot-1.jpg");
-  }
-}
-@media only screen and (max-width: 1550px) {
-  header {
-    min-height: 470px;
-  }
-}
-@media only screen and (max-width: 1000px) {
-  header {
-    background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-kleiner-1.jpg");
   }
 }
 body {
@@ -131,83 +121,86 @@ body {
   color: #83ECFE;
 }
 
-article {
-  display: flex;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 12px;
-  margin-top: 40px;
-  padding: 30px;
+.menu-klein li {
+  list-style: none;
 }
-article .news-text {
-  margin-left: 20px;
-}
-article a {
+.menu-klein li a {
   text-decoration: none;
-  font-size: small;
-  background-color: #1B06EA;
-  color: white;
-  border: 2px solid #1B06EA;
-  transition: 0.3s;
-  padding: 10px;
+  color: #FFFFFF;
+  font-size: x-large;
   font-weight: bold;
+  transition: 0.3s;
 }
-article a:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 13px;
-}
-
-.title-home {
-  font-size: xx-large;
-  margin-bottom: 20px;
-}
-
-.desc-home {
-  font-size: medium;
-}
-
-hr {
-  margin-top: 20px;
-  width: 400px;
-  margin-left: 0;
-  border-top: 2px solid #E24426;
-}
-
-.content-index {
-  text-align: center;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 12px;
-}
-.content-index a {
+.menu-klein li a:hover {
   text-decoration: none;
-  font-size: small;
-  background-color: #1B06EA;
-  color: white;
-  border: 2px solid #1B06EA;
-  transition: 0.3s;
-  padding: 10px;
-  font-weight: bold;
-}
-.content-index a:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
+  color: #83ECFE;
 }
 
-.title-index {
-  font-size: xx-large;
-  margin-bottom: 20px;
+.btn {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 12px;
+  font-size: 8px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  display: none;
 }
 
-.desc-index {
-  font-size: medium;
+.navbar-klein {
+  position: relative;
+  display: block;
+  float: right;
+  right: 15%;
 }
 
-@media only screen and (max-width: 1550px) {
-  .main-content {
-    padding: 6px;
+.menu-klein {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+}
+
+.navbar-klein:hover .menu-klein {
+  display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .btn {
+    display: block;
   }
+
+  .menu-klein {
+    right: 1%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-klein {
+    display: none;
+  }
+}
+.scav-pics {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wp-image-443, .wp-image-436, .wp-image-437 {
+  padding: 3px;
+  border: solid 5px #E24426;
+}
+
+.Scavenger-text {
+  color: #E24426;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.Scavenger-text:hover {
+  text-decoration: underline;
+  color: #83ECFE;
 }
 
 /*# sourceMappingURL=homestyle.css.map */

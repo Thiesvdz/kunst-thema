@@ -22,7 +22,7 @@ function kunst_setup_thema(){
 
 
 add_action('after_setup_theme','kunst_setup_thema');
-
+add_theme_support( 'woocommerce' );
 
 add_action( 'widgets_init', 'kunst_register_sidebars' );
 function kunst_register_sidebars() {

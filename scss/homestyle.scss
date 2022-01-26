@@ -84,91 +84,94 @@ body {
   }
 }
 
-// News page
-article{
-  display: flex;
-  //text-align: left;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 12px;
-  margin-top: 40px;
-  padding: 30px;
 
-    .news-text {
-      margin-left: 20px;
-    }
-    a{
+
+.menu-klein{
+  //display: none;
+  li{
+    list-style: none;
+
+    a {
       text-decoration: none;
-      font-size: small;
-      background-color: $donkerblauw;
-      color: white;
-      border: 2px solid $donkerblauw;
-      transition: 0.3s;
-      padding: 10px;
+      color: $wit;
+      font-size: x-large;
       font-weight: bold;
+      transition: 0.3s;
     }
-
     a:hover{
-      background-color: rgba(0, 0, 0, 0.6);
-      color: white;
-      padding: 13px;
+      text-decoration: none;
+      color: #83ECFE;
     }
+  }
 }
-
-.title-home{
-  font-size: $font-title;
-  margin-bottom: 20px;
-}
-
-.desc-home{
-  font-size: medium;
-}
-
-hr{
-  margin-top: 20px;
-  width: 400px;
-  margin-left: 0;
-  border-top: 2px solid $warmrood;
-}
-
-
-// News post style
-
-.content-index{
-  text-align: center;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
+.btn{
+  background-color: $wit;
+  color: $zwart;
   padding: 12px;
+  font-size: 8px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  display: none;
+}
 
-  a{
-    text-decoration: none;
-    font-size: small;
-    background-color: $donkerblauw;
-    color: white;
-    border: 2px solid $donkerblauw;
-    transition: 0.3s;
-    padding: 10px;
-    font-weight: bold;
+.navbar-klein{
+  position: relative;
+  display: block;
+  float: right;
+  right: 15%;
+}
 
+.menu-klein{
+  display: none;
+  position: absolute;
+  //background-color: red;
+  min-width: 160px;
+}
+.navbar-klein:hover .menu-klein {
+  display: block;
+}
+
+@media only screen and (max-width: 1000px){
+
+  .btn{
+    display: block;
   }
 
-  a:hover{
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+  .menu-klein{
+    right: 1%;
+  }
+  .menu{
+    display: none;
+  }
+  .menu-klein{
+    display: none;
   }
 }
 
-.title-index{
-  font-size: $font-title;
-  margin-bottom: 20px;
+
+
+.scav-pics{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
 }
 
-.desc-index{
-  font-size: medium;
+.wp-image-443, .wp-image-436, .wp-image-437{
+  padding: 3px;
+  border: solid 5px $warmrood;
 }
 
-@media only screen and (max-width: 1550px){
-  .main-content{
-    padding: 6px;
-  }
+.Scavenger-text{
+  color: $warmrood;
+  text-decoration: none;
+  transition: 0.3s;
 }
+
+.Scavenger-text:hover{
+   text-decoration: underline;
+   color: $ijsblauw;
+
+ }
+

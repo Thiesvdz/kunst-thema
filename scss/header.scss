@@ -1,40 +1,51 @@
 header{
-  background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-normaal-2.jpg");
+  //background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-normaal-2.jpg");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  min-height: 600px;
+  min-height: 500px;
   padding-top: 20px;
   padding-left: 20px;
-  background-color: black;
+  background-color: red;
   margin-top: 40px;
 }
+
+
+// Navbar
+
+.knoppen{
+
+}
+
+
 
 // 27 inch monitor
 @media only screen and (min-width: 1950px){
   header{
-    background-color: black;
+    background-color: red;
     min-height: 750px;
-    background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-groot-1.jpg");
+    //background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-groot-1.jpg");
 
   }
 }
 
 // laptop scherm
-@media only screen and (max-width: 1550px){
+@media only screen and (min-width: 1550px){
   header{
-    min-height: 470px;
+    //min-height: 470px;
   }
 
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (min-width: 1000px){
   header{
-    background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-kleiner-1.jpg");
+    //background-image: url("http://eye-artshop.local/wp-content/uploads/2022/01/Movie-background-kleiner-1.jpg");
 
   }
 
 }
 
 // Telefoon scherm
-@media only screen and (max-width: 375px){
+@media only screen and (min-width: 375px){
 
 }
