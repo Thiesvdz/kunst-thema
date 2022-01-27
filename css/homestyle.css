@@ -2,7 +2,6 @@ footer {
   padding: 20px;
   background-color: #FFFFFF;
   border: solid 3px #000000;
-  height: 150px;
   position: inherit;
   bottom: 0;
   width: 97.3%;
@@ -27,8 +26,13 @@ li {
 }
 
 .logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-socials {
   width: 50px;
-  display: block;
+  margin-right: 10px;
 }
 
 .Location-tekst {
@@ -45,15 +49,25 @@ li {
   color: #83ECFE;
 }
 
+.bogo {
+  text-align: center;
+}
+
 @media only screen and (min-width: 1950px) {
   footer {
     width: 97.8%;
   }
 }
 @media only screen and (max-width: 800px) {
-  footer {
+  .footer-heel {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
   }
 }
 header {
@@ -224,6 +238,11 @@ body {
 .Scavenger-text:hover {
   text-decoration: underline;
   color: #83ECFE;
+}
+
+.promo-vid {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=homestyle.css.map */

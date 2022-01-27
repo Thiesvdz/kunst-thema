@@ -9,14 +9,14 @@
         </div>
 
         <div class="Socials">
-            <h2>Socials</h2>
-            <ul class="logos">
-                <li><img src="<?php echo get_template_directory_uri()?>/Footer-img/instagram-brands.svg" alt="" id=""></li>
-                <li><img src="<?php echo get_template_directory_uri()?>/Footer-img/facebook-square-brands.svg" alt="" id=""></li>
-                <li><img src="<?php echo get_template_directory_uri()?>/Footer-img/youtube-brands (1).svg" alt="" id=""></li>
-                <li><img src="<?php echo get_template_directory_uri()?>/Footer-img/twitter-brands.svg" alt="" id=""></li>
-                <li><img src="<?php echo get_template_directory_uri()?>/Footer-img/linkedin-brands.svg" alt="" id=""></li>
-            </ul>
+            <h2 class="bogo">Socials</h2>
+            <div class="logos">
+                <img src="<?php echo get_template_directory_uri()?>/Footer-img/instagram-brands.svg"  class="footer-socials">
+                <img src="<?php echo get_template_directory_uri()?>/Footer-img/facebook-square-brands.svg"  class="footer-socials">
+                <img src="<?php echo get_template_directory_uri()?>/Footer-img/youtube-brands (1).svg"  class="footer-socials">
+                <img src="<?php echo get_template_directory_uri()?>/Footer-img/twitter-brands.svg"  class="footer-socials">
+                <img src="<?php echo get_template_directory_uri()?>/Footer-img/linkedin-brands.svg"  class="footer-socials">
+            </div>
         </div>
 
         <div class="contact">

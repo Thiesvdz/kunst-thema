@@ -2,7 +2,7 @@ footer{
   padding: 20px;
   background-color: $wit;
   border: solid 3px $zwart;
-  height: 150px;
+  //height: 150px;
   //margin-top: 20px;
   position: inherit;
   bottom: 0;
@@ -29,8 +29,14 @@ li{
 }
 
 .logos{
+  //width: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-socials{
   width: 50px;
-  display: block;
+  margin-right: 10px;
 }
 
 .Location-tekst{
@@ -40,6 +46,8 @@ li{
   display: flex;
   justify-content: space-around;
 }
+
+
 .Socials{
   text-decoration: none;
   color: $ijsblauw;
@@ -50,7 +58,9 @@ li{
 
 }
 
-
+.bogo{
+  text-align: center;
+}
 
 @media only screen and (min-width: 1950px){
   footer{
@@ -59,9 +69,15 @@ li{
 }
 
 @media only screen and (max-width: 800px){
-  footer{
-
+  .footer-heel{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logos{
+    display: flex;
+    justify-content: center;
+    //text-align: center;
   }
 }
