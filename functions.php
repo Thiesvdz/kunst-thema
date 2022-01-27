@@ -25,7 +25,7 @@ function kunst_setup_thema(){
         'product_grid'          => array(
             'default_rows'    => 3,
             'min_rows'        => 2,
-            'max_rows'        => 8,
+            'max_rows'        => 3,
             'default_columns' => 4,
             'min_columns'     => 2,
             'max_columns'     => 5,
