@@ -28,7 +28,7 @@ function kunst_setup_thema(){
             'max_rows'        => 3,
             'default_columns' => 4,
             'min_columns'     => 2,
-            'max_columns'     => 5,
+            'max_columns'     => 3,
         ),
     ) );
 }
