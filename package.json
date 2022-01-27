@@ -1,20 +1,22 @@
 {
-  "name": "kunst-thema",
-  "version": "1.0.0",
-  "description": "## Wordpress project voor mediacollege Amsterdam",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "sass-convert": "^0.5.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Thiesvdz/kunst-thema.git"
+  "name": "kunst-thema",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "sass --style expanded scss/homestyle.scss css/homestyle.css",
+    "watch": "sass --watch scss/homestyle.scss css/homestyle.css",
+    "watchHome": "sass --watch scss/home/home.scss css/home.css",
+    "watchEvents": "sass --watch scss/events/events.scss css/events.css",
+    "watchAboutUs": "sass --watch scss/about-us/about-us.scss css/about-us.css",
+    "watchMovies": "sass --watch scss/movies/movies.scss css/movies.css",
+    "prod": "sass --style compressed --sourcemap=none scss/homestyle.scss css/homestyle.css"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Thiesvdz/kunst-thema/issues"
-  },
-  "homepage": "https://github.com/Thiesvdz/kunst-thema#readme"
+  "license": "ISC"
 }

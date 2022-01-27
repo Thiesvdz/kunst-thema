@@ -1,0 +1,67 @@
+footer{
+  padding: 20px;
+  background-color: $wit;
+  border: solid 3px $zwart;
+  height: 150px;
+  //margin-top: 20px;
+  position: inherit;
+  bottom: 0;
+  width: 97.3%;
+
+}
+
+h2 {
+  color: $warmrood;
+}
+
+li{
+  list-style: none;
+}
+.tekst{
+  color: $donkerblauw;
+  text-decoration: none;
+  text-align: center;
+}
+
+.tekst:hover{
+  color: $ijsblauw;
+
+}
+
+.logos{
+  width: 50px;
+  display: block;
+}
+
+.Location-tekst{
+  text-align: center;
+}
+.footer-heel{
+  display: flex;
+  justify-content: space-around;
+}
+.Socials{
+  text-decoration: none;
+  color: $ijsblauw;
+
+}
+
+.Socials:hover{
+
+}
+
+
+
+@media only screen and (min-width: 1950px){
+  footer{
+    width: 97.8%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  footer{
+
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,177 @@
+@import "mixins";
+@import "variables";
+@import "footer";
+@import "header";
+
+
+body {
+  background-color: $wit;
+  font-family: Arial;
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  //background-image: url("http://eye-artshop.local/wp-content/uploads/2021/12/Movie-background.jpg");
+  //background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#header-img{
+  width: 125px;
+  float: left;
+}
+
+.main-content {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(226,68,38 );
+  padding: 12px;
+  margin-bottom: 40px;
+}
+
+.title{
+  font-size: $font-title;
+  //padding-top: 15px;
+}
+
+.desc{
+  font-size: $font-desc;
+}
+
+.content{
+  text-align: center;
+  background-color: $wit;
+  border: solid 3px $zwart;
+  min-width: 97.3%;
+  min-height: 60%;
+  padding: 20px;
+  //margin-top: 20px;
+}
+
+.navbar {
+
+}
+
+/* Nav Menu */
+.current_page_item {
+  text-decoration-color: $active-menu-item;
+  border-bottom: solid 4px #E24426;
+}
+.menu {
+  ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 0;
+    padding: 7px;
+  }
+  li{
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: $wit;
+      font-size: x-large;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    a:hover{
+      text-decoration: none;
+      color: #83ECFE;
+    }
+  }
+}
+
+
+
+.menu-klein{
+  //display: none;
+  li{
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: $wit;
+      font-size: x-large;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    a:hover{
+      text-decoration: none;
+      color: #83ECFE;
+    }
+  }
+}
+.btn{
+  background-color: $wit;
+  color: $zwart;
+  padding: 12px;
+  font-size: 8px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar-klein{
+  position: relative;
+  display: block;
+  float: right;
+  right: 15%;
+}
+
+.menu-klein{
+  display: none;
+  position: absolute;
+  //background-color: red;
+  min-width: 160px;
+}
+.navbar-klein:hover .menu-klein {
+  display: block;
+}
+
+@media only screen and (max-width: 1000px){
+
+  .btn{
+    display: block;
+  }
+
+  .menu-klein{
+    right: 1%;
+  }
+  .menu{
+    display: none;
+  }
+  .menu-klein{
+    display: none;
+  }
+}
+
+
+.scav-pics{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.wp-image-443, .wp-image-436, .wp-image-437{
+  padding: 3px;
+  border: solid 5px $warmrood;
+  width: 150px;
+}
+
+.Scavenger-text{
+  color: $warmrood;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.Scavenger-text:hover{
+   text-decoration: underline;
+   color: $ijsblauw;
+
+ }
+
