@@ -3,7 +3,7 @@
     <?php
         get_header();
     ?>
-    <section class="product">
+    <section class="product ">
         <?php woocommerce_content(); ?>
     </section>
     

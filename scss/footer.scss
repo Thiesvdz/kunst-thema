@@ -1,7 +1,7 @@
 footer{
   padding: 20px;
   background-color: $wit;
-  border: solid 3px $zwart;
+  //border: solid 3px $zwart;
   //height: 150px;
   //margin-top: 20px;
   position: inherit;
@@ -20,9 +20,11 @@ li{
 .tekst{
   color: $donkerblauw;
   text-decoration: none;
+
+}
+.footer-p{
   text-align: center;
 }
-
 .tekst:hover{
   color: $ijsblauw;
 
